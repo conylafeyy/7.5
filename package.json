@@ -1,0 +1,30 @@
+{
+  "name": "7-5-puppeteer-2",
+  "version": "1.0.0",
+  "description": "test on puppeteer and cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "cucumber": "cucumber-js"
+  },
+  "keywords": [
+    "test",
+    "puppeteer",
+    "cucumber"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "cucumber": "^6.0.7",
+    "jest": "^27.5.1",
+    "jest-puppeteer": "^6.1.0",
+    "puppeteer": "^13.3.2"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^7.3.2"
+  },
+  "directories": {
+    "lib": "lib"
+  }
+}
